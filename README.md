@@ -28,8 +28,6 @@ Swagger документация: http://localhost:3000/api
 
 Оптимизированный SQL запрос для вывода транзакций с учетом всех транзакций блоков, которые попадают в выборку.
 
-Решение находится в файле [sql/optimized-query.sql](sql/optimized-query.sql)
-
 WITH block_heights AS (
   SELECT DISTINCT block_height
   FROM test_txs

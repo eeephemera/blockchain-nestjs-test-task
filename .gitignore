@@ -1,0 +1,13 @@
+   # Dependencies
+   node_modules/
+   
+   # Compiled output
+   api/dist/
+   
+   # Logs
+   logs
+   *.log
+   npm-debug.log*
+   
+   # OS
+   .DS_Store
